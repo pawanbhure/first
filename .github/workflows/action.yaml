@@ -21,4 +21,5 @@ jobs:
     - name: Use context
       run: kubectl config use-context kubernetes-admin@kubernetes
     - name: Deploy to K8s
-      run: kubectl apply -f k8s/
+      run: ping 192.168.19.129
+      
